@@ -27,6 +27,12 @@ export const PinContainer = ({
   const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
+  
+   const onClick = () => {
+    if (href) {
+      window.open(href, "_blank");
+    }
+  };
 
   return (
     <div
