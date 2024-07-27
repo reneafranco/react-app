@@ -8,8 +8,8 @@ import RecentProjects from "@/components/RecentProjects";
 import Client from "@/components/Client";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
-import Footer from "@/components/Footer"
-
+import Footer from "@/components/Footer";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -18,9 +18,10 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={ navItems } /> 
         <Hero/>
-        <Grid />
+        <About />
         <RecentProjects />
         <Experience />
+        <Grid />
         <Approach />
         <Client />
         <Footer /> 
