@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className=" text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Rene Franco a Software Engineer based in United States.
+            Hi, I'm a Software Engineer based in United States.
           </p>
 
           <a href="#about">

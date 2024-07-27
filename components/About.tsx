@@ -2,6 +2,8 @@ import React from 'react'
 import MagicButton from "@/components/ui/MagicButton";
 import { FiDownload } from 'react-icons/fi';
 import Social from "@/components/Social";
+import Photo from "@/components/ui/Photo";
+
 
 const About = () => {
   return (
@@ -25,12 +27,17 @@ const About = () => {
               position="right"
               />
             <div className="mb-8 xl:mb-0">
-              <Social />
+              <Social containerStyles="flex gap-6" iconStyles="w-9 h-9
+              border border-purple rounded-full flex 
+              justify-center items-center text-purple text-base hover:bg-purple hover:text-primary
+              hover:transition-all duration-500" />
             </div>
           </div>
         </div>
         {/* photo*/}
-        <div>photo</div>
+        <div>
+        <Photo />
+        </div>
       </div>
     </section>
   )
