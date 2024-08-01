@@ -30,7 +30,9 @@ const About = () => {
               <div className="mb-8 xl:mb-0">
                 <Social 
                   containerStyles="flex gap-6" 
-                  iconStyles="w-9 h-9 border border-purple rounded-full flex justify-center items-center text-purple text-base hover:bg-purple hover:text-primary hover:transition-all duration-500" 
+                  iconStyles="w-9 h-9 border border-purple rounded-full flex justify-center items-center 
+                  text-purple text-base hover:bg-purple hover:text-primary hover:transition-all duration-500
+                  xl:mt-9" 
                 />
               </div>
             </div>
