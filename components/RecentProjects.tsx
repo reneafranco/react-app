@@ -7,8 +7,8 @@ import { PinContainer } from "./ui/PinContainer";
 
 const RecentProjects = () => {
   return (
-    <div className="xl:py-20">
-      <h1 className="heading">
+    <div className="xl:py-30 " id="projects">
+      <h1 className="heading ">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
