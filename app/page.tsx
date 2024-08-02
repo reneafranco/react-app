@@ -10,6 +10,7 @@ import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
+import Herotest from "@/components/Herotest";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
     items-center flex-col overflow-hidden mx-auto sm:px-10 px-5" >
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={ navItems } /> 
-        <Hero/>
+        <Hero />
+        
         <About />
         <RecentProjects />
         <Experience />

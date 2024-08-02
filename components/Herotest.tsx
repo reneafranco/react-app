@@ -34,12 +34,16 @@ const Hero = () => {
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
-        <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
-          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
-        />
+        <div className="h-full w-full dark:bg-black-100 bg-white  
+      dark:bg-dot-white/[0.3] bg-dot-black/[0.2]  
+      flex items-center justify-center absolute top-0 left-0">
+          {/* Radial gradient for the container to give a faded look */}
+          <div className="absolute pointer-events-none inset-0 flex items-center 
+          justify-center dark:bg-black-100
+          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
+      </div>
+
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
@@ -76,11 +80,3 @@ const Hero = () => {
 
 export default Hero;
 
-<div className="h-full w-full dark:bg-black-100 bg-white  
-      dark:bg-dot-white/[0.3] bg-dot-black/[0.2]  
-      flex items-center justify-center absolute top-0 left-0">
-          {/* Radial gradient for the container to give a faded look */}
-          <div className="absolute pointer-events-none inset-0 flex items-center 
-          justify-center dark:bg-black-100
-          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
-    </div>
