@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Herotest from "@/components/Herotest";
 import HeroWavy from "@/components/HeroWavy";
+import RecenProjectsTest from "@/components/RecenProjectsTest";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Herotest />
         <About />
         <RecentProjects />
+        <RecenProjectsTest />
         <Experience />
         <Approach />
         <Client />

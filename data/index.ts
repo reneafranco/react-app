@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "Hermes - Render Engine",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Simplify your video conferencing experience with Yoom.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
