@@ -17,10 +17,10 @@ const RecentProjectsTest = () => {
             </h1>
             <div className="flex flex-wrap items-center justify-center gap-8 mt-10">
                 {projects.map((project) => (
-                <CardContainer className="inter-var rounded-3xl" key={project.id}>
+                <CardContainer className="inter-var rounded-3xl " key={project.id}>
                     <CardBody className="bg-black-100 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
                     dark:bg-black-100 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-3xl p-3 border ">
-                    <CardItem translateZ="100" className="w-full mt-0">
+                    <CardItem translateZ="100" className="w-full mt-3">
                         <Image
                         src={project.img}
                         height="1000"
@@ -42,7 +42,7 @@ const RecentProjectsTest = () => {
                     >
                         {project.des}
                     </CardItem>
-                    <div className="flex justify-between items-center mt-20">
+                    <div className="flex justify-between items-center mt-9">
                         <div className="flex space-x-1">
                         {project.iconLists.map((icon, index) => (
                             <CardItem
@@ -70,7 +70,7 @@ const RecentProjectsTest = () => {
                         as={Link}
                         href={project.link}
                         target="__blank"
-                        className="flex items-center px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                        className="flex items-center py-2 rounded-xl text-xs font-normal dark:text-white"
                         >
                         <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                             Check Live Site
