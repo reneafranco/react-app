@@ -22,7 +22,7 @@ export default function Home() {
         <FloatingNav navItems={ navItems } /> 
         <Herotest />
         <About />
-        <RecentProjects />
+       
         <RecenProjectsTest />
         <Experience />
         <Approach />
