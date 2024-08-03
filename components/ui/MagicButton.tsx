@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+
 
 /**
  *  UI: border magic from tailwind css btns
