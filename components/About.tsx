@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section  className="h-full w-full " id="about">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-12 xl:pb-24">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-12 2xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
@@ -110,6 +110,7 @@ const people = [
     image:
       "/assets/docker.svg",
   },
+  
   {
     id: 9,
     name: "Linux",
@@ -117,8 +118,16 @@ const people = [
     image:
       "/assets/arch.svg",
   },
+  {
+    id: 10,
+    name: "AWS",
+    designation: " Hosting Service",
+    image:
+      "/assets/aws.svg",
+  },
   
 ];
+// color #e5d9f7
 
 export default About
 
