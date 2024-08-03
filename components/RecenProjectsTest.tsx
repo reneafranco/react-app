@@ -9,10 +9,11 @@ import { projects } from "@/data";
 const RecentProjectsTest = () => {
   return (
     <section>
-      <div className="flex flex-wrap items-center justify-center gap-6 mt-10">
+      <div className="flex flex-wrap items-center relative justify-center gap-8 mt-10 ">
         {projects.map((project) => (
-          <CardContainer className="inter-var" key={project.id}>
-            <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+          <CardContainer className="inter-var rounded-3xl" key={project.id}>
+            <CardBody className="bg-black-100 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
+             dark:bg-black-100 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-3xl p-3 border ">
               <CardItem translateZ="100" className="w-full mt-0">
                 <Image
                   src={project.img}
