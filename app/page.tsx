@@ -23,7 +23,6 @@ export default function Home() {
         <About />
         <RecentProjects />
         <Experience />
-        <Grid />
         <Approach />
         <Client />
         <Footer /> 

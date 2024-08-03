@@ -2,12 +2,13 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import Grid from "./Grid";
 
 const Experience = () => {
   return (
-    <div className="xl:py-40 py-20 w-full">
+    <div className="2xl:pt-40 pt-20 w-full">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+        Background <span className="text-purple">& Education</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
@@ -47,6 +48,7 @@ const Experience = () => {
           </Button>
         ))}
       </div>
+      <Grid/>
     </div>
   );
 };
