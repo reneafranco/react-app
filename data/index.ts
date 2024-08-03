@@ -75,7 +75,7 @@ export const projects = [
     title: "Argus - Independent Browser",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/assets/java.svg", "/assets/svgrepoJs.svg"],
     link: "https://www.google.com",
   },
   {
