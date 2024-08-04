@@ -84,7 +84,7 @@ export const projects = [
     des: "Elevate your video meetings with Hermes, offering top-notch rendering for smooth communication.",
     img: "/images/render-engine.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/reneafranco/Argus",
   },
   {
     id: 3,
