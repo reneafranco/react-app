@@ -6,7 +6,7 @@ import Grid from "./Grid";
 
 const Experience = () => {
   return (
-    <div className="2xl:pt-40 pt-20 w-full" id="experience">
+    <div className="2xl:pt-20 pt-20 w-full" id="experience">
       <h1 className="heading">
         Background <span className="text-purple">& Education</span>
       </h1>
