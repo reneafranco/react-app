@@ -8,7 +8,7 @@ const JetBrainsMono = JetBrains_Mono({ subsets: ["latin"], weight: ["100", "200"
 
 export const metadata: Metadata = {
   title: "Rene's Portfolio",
-  description: "Modern Website portfolio using next.js",
+  description: "Rene A Franco Portfolio",
 };
 
 export default function RootLayout({
