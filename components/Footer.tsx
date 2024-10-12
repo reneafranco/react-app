@@ -16,7 +16,7 @@ const Footer = () => {
       </div> */}
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
+        <h1 className="heading lg:max-w-[45vw] text-white">
           I hope <span className="text-purple">my work </span>
           resonates with<span className="text-purple"> you </span>
         </h1>
@@ -32,7 +32,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base text-sm md:font-normal font-light text-white/90">
           Copyright © 2024 Rene Franco
         </p>
 
