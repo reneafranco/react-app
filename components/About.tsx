@@ -6,7 +6,6 @@
 // import Stats from "@/components/ui/Stats";
 // import { AnimatedTooltip } from './ui/AnimatedTootip';
 
-
 // const About = () => {
 //   return (
 //     <section  className="h-full w-full " id="about">
@@ -19,22 +18,22 @@
 //               Hello I'm <br /> <span className="text-purple">Rene Franco</span>
 //             </h1>
 //             <p className="max-w-[500px] mb-9 text-white/80">
-//               I excel at crafting elegant digital experiences and am proficient in 
+//               I excel at crafting elegant digital experiences and am proficient in
 //               various programming languages and technologies.
 //             </p>
 //             {/* btn and social */}
 //             <div className="flex flex-col xl:flex-row items-center gap-8">
-//               <MagicButton 
+//               <MagicButton
 //                 title="Download CV"
 //                 icon={<FiDownload className="text-xl" />}
 //                 position="right"
 //               />
 //               <div className="mb-8 xl:mb-0">
-//                 <Social 
-//                   containerStyles="flex gap-6" 
-//                   iconStyles="w-9 h-9 border border-purple rounded-full flex justify-center items-center 
+//                 <Social
+//                   containerStyles="flex gap-6"
+//                   iconStyles="w-9 h-9 border border-purple rounded-full flex justify-center items-center
 //                   text-purple text-base hover:bg-purple hover:text-primary hover:transition-all duration-500
-//                   xl:mt-9" 
+//                   xl:mt-9"
 //                 />
 //               </div>
 //             </div>
@@ -110,7 +109,7 @@
 //     image:
 //       "/assets/docker.svg",
 //   },
-  
+
 //   {
 //     id: 9,
 //     name: "Linux",
@@ -125,20 +124,20 @@
 //     image:
 //       "/assets/aws.svg",
 //   },
-  
+
 // ];
 // // color #e5d9f7
 
 // export default About
 "use client";
 
-import React from 'react';
+import React from "react";
 import MagicButton from "@/components/ui/MagicButton";
-import { FiDownload } from 'react-icons/fi';
+import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/ui/Photo";
 import Stats from "@/components/ui/Stats";
-import { AnimatedTooltip } from './ui/AnimatedTootip';
+import { AnimatedTooltip } from "./ui/AnimatedTootip";
 
 const About = () => {
   return (
@@ -147,28 +146,29 @@ const About = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-12 2xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
-            <h1 className="h1 mb-6">
-              Hello I&apos;m <br /> <span className="text-purple">Rene Franco</span>
+            <span className="text-xl text-white/65">Software Developer</span>
+            <h1 className="h1 mb-6 text-white">
+              Hello I&apos;m <br />{" "}
+              <span className="text-purple">Rene Franco</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and am proficient in 
-              various programming languages and technologies.
+              I excel at crafting elegant digital experiences and am proficient
+              in various programming languages and technologies.
             </p>
             {/* btn and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <MagicButton 
+              <MagicButton
                 title="Download CV"
                 icon={<FiDownload className="text-xl" />}
                 position="right"
                 handleClick={handleDownloadCV}
               />
               <div className="mb-8 xl:mb-0">
-                <Social 
-                  containerStyles="flex gap-6" 
+                <Social
+                  containerStyles="flex gap-6"
                   iconStyles="w-9 h-9 border border-purple rounded-full flex justify-center items-center 
                   text-purple text-base hover:bg-purple hover:text-primary hover:transition-all duration-500
-                  xl:mt-9" 
+                  xl:mt-9"
                 />
               </div>
             </div>
@@ -179,7 +179,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-center items-center pb-10 xl:py-20 2xl:py-10'>
+      <div className="flex justify-center items-center pb-10 xl:py-20 2xl:py-10">
         <AnimatedTooltip items={people} />
       </div>
       <Stats />
