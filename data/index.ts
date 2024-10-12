@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title: "Software Enginner Western Governors University ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3  md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full ",
     titleClassName: "justify-end  ",
     img: "/assets/cerca.png",
@@ -75,7 +75,13 @@ export const projects = [
     title: "Argus - Independent Browser",
     des: "Explore a secure and fast browsing experience with Argus, designed for privacy and efficiency.",
     img: "/images/argus-galaxy.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/assets/java.svg", "/assets/svgrepoJs.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/assets/java.svg",
+      "/assets/svgrepoJs.svg",
+    ],
     link: "https://github.com/reneafranco/Argus",
   },
   {
@@ -110,31 +116,30 @@ export const testimonials = [
       "Working with Rene was an exceptional experience. His profound intelligence and enthusiasm for every aspect of the project were truly impressive. Rene's charismatic approach and unwavering commitment to delivering top-quality results made a significant impact. If you want someone who combines expertise with a dynamic presence, Rene is your go-to professional.",
     name: "Marcelino Saez",
     title: "Senior Software Enginner",
-    profileImage: "/images/marce.jpeg"
+    profileImage: "/images/marce.jpeg",
   },
   {
     quote:
       "Rene's passion and intelligence are unparalleled. His charismatic personality and dedication to the project brought a unique energy that propelled our work forward. Rene's ability to tackle challenges with both creativity and professionalism made him a standout collaborator. For a partner who offers both expertise and a vibrant attitude, Rene is highly recommended.",
     name: "Karelys Franco",
     title: "Trilingual Senior Business Analyst",
-     profileImage: "/images/marce.jpeg"
+    profileImage: "/images/marce.jpeg",
   },
   {
     quote:
       "Collaborating with Rene was an outstanding experience. His sharp intellect and enthusiastic approach added tremendous value to our project. Rene's charisma and commitment to achieving exceptional results were evident throughout. His positive energy and professional skills make him a fantastic choice for any development needs.",
     name: "Jonh Doe",
     title: "Lead Developer at Creative Solutions",
-     profileImage: "/images/marce.jpeg"
+    profileImage: "/images/marce.jpeg",
   },
   {
     quote:
       "Rene's blend of intelligence, enthusiasm, and charisma transformed our project. His proactive attitude and dedication to excellence were apparent from the start. Rene's ability to infuse energy and expertise into his work ensures top-notch results. For a collaborator who delivers with both skill and a dynamic presence, Rene stands out.",
     name: "James Lee",
     title: "Chief Technology Officer at FutureTech",
-     profileImage: "/images/marce.jpeg"
+    profileImage: "/images/marce.jpeg",
   },
 ];
-
 
 export const companies = [
   {
@@ -214,4 +219,3 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
-
