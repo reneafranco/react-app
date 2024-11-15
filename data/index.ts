@@ -177,28 +177,28 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Open Source Developer",
+    title: "Software Enginner - Freelancer.com",
     desc: "Contributed to open-source projects on GitHub, specializing in Java Spring Boot, deploying on AWS and Google Cloud.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Java Developer / Backend Developer intern",
+    title: "Software Engineer/ Backend Developer - Revature",
     desc: "Configured REST API endpoints using Javalin, composed service layer logic, and implemented input validation in TDD.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Software Engineer intern",
+    title: "Software Engineer - GaoTeck Inc",
     desc: "Developed a bug-tracking system reducing resolution time by 40% and optimized application performance using Angular and Spring Framework.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Software Engineer Freelance",
+    title: "Software Engineer - Freelance",
     desc: "Created dynamic interfaces, implemented route management, and ensured data integrity using Django ORM and secure RESTful APIs.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",

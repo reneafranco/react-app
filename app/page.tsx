@@ -18,8 +18,9 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Herotest />
         <About />
-        <RecenProjectsTest />
         <Experience />
+        <RecenProjectsTest />
+
         <Approach />
         <Client />
         <Footer />
