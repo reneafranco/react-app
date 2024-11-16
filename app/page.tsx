@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Herotest from "@/components/Herotest";
 import RecenProjectsTest from "@/components/RecenProjectsTest";
+import { BentoGridSecondDemo } from "@/components/Background";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         <About />
         <Experience />
         <RecenProjectsTest />
-
+        <BentoGridSecondDemo />
         <Approach />
         <Client />
         <Footer />
