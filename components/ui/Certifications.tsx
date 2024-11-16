@@ -4,21 +4,21 @@ export function CertificationsDemo() {
   const certifications = [
     {
       quote:
-        "This certification showcases my ability to build and maintain responsive, user-friendly web applications.",
+        "This certification validates my ability to build responsive, user-friendly, and maintainable web applications.",
       name: "Front-End Developer",
       designation: "Western Governors University",
-      src: "https://images.unsplash.com/photo-1515169067865-5387ec356754?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3",
+      src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3",
     },
     {
       quote:
-        "Focused on troubleshooting, system administration, and IT support, this certification has honed my technical problem-solving skills.",
-      name: "Google IT Support Professional",
+        "Focuses on troubleshooting, system administration, and IT support, enhancing technical problem-solving expertise.",
+      name: "Google IT Support ",
       designation: "Google",
       src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3",
     },
     {
       quote:
-        "Developed expertise in managing projects effectively, from initiation to completion, with a focus on Agile methodologies.",
+        "Develops expertise in managing projects, emphasizing Agile methodologies from initiation to successful completion.",
       name: "Google Project Management",
       designation: "Google",
       src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3",

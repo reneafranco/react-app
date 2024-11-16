@@ -14,7 +14,7 @@ const stats = [
   },
   {
     num: 10,
-    text: "Technologies mastered",
+    text: "Tech Expertise",
   },
   {
     num: 996,

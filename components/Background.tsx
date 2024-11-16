@@ -1,10 +1,6 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
-import {
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-} from "@tabler/icons-react";
+import { IconSignature } from "@tabler/icons-react";
 import { CertificationsDemo } from "./ui/Certifications";
 import { InfiniteSliderHoverSpeed } from "./InfitiSlidingSkills";
 import { InfiniteSliderBasic } from "./ui/InfinitiSliderBasic";
@@ -18,7 +14,7 @@ export function BentoGridSecondDemo() {
           Background <span className="text-purple"> & Education</span>
         </h1>
       </div>
-      <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[28rem] py-20">
+      <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[29rem] py-20">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
@@ -41,7 +37,7 @@ const Skeleton = () => (
 );
 const SkeletonTwo = () => (
   <div
-    className="flex flex-1 w-full h-full rounded-xl  bg-dot-white/[0.2]
+    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl   bg-dot-white/[0.2]
     [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
   >
     {" "}
@@ -68,31 +64,29 @@ const SkeletonThree = () => (
 const SkeletonFive = () => (
   <div
     className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-dot-white/[0.2]
-    [mask-image:radial-gradient(ellipse_at_center,black,black)] border border-white/[0.2] bg-black-200"
+    [mask-image:radial-gradient(ellipse_at_center,black,black)] border border-white/[0.2] t bg-black-200"
   >
     <Image
       src="/assets/test.png"
       alt="Descripción de la imagen"
-      width={500} // Ajusta el tamaño según tus necesidades
-      height={500} // Ajusta el tamaño según tus necesidades
+      width={500}
+      height={500}
       className="rounded-xl object-cover w-full object-top  "
     />
   </div>
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    title: "B.S. in Software Engineering",
+    description: "Western Governors University - United States",
     header: <SkeletonFive />,
-    className: "md:col-span-2",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    className: "md:col-span-2 text-3xl",
   },
   {
-    title: "The Digital Revolution",
+    title: "Software Skills",
     description: "Dive into the transformative power of technology.",
     header: <SkeletonThree />,
-    className: "md:col-span-1",
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    className: "md:col-span-1 text-2xl",
   },
   {
     title: "The Art of Design",
@@ -103,6 +97,7 @@ const items = [
   },
   {
     header: <SkeletonTwo />,
-    className: "md:col-span-2",
+    className: "md:col-span-2 text-xl ",
+    title: "Certifications",
   },
 ];
