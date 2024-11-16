@@ -4,10 +4,10 @@ import {
   IconClipboardCopy,
   IconFileBroken,
   IconSignature,
-  IconTableColumn,
 } from "@tabler/icons-react";
 import { CertificationsDemo } from "./ui/Certifications";
 import { InfiniteSliderHoverSpeed } from "./InfitiSlidingSkills";
+import { InfiniteSliderBasic } from "./ui/InfinitiSliderBasic";
 
 export function BentoGridSecondDemo() {
   return (
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const SkeletonTwo = () => (
   <div
     className="flex flex-1 w-full h-full rounded-xl  bg-dot-white/[0.2]
-    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black"
+    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
   >
     {" "}
     <CertificationsDemo />
@@ -50,11 +50,17 @@ const SkeletonTwo = () => (
 
 const SkeletonThree = () => (
   <div
-    className="flex flex-1 w-full h-full rounded-xl  bg-dot-white/[0.2]
-    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black"
+    className="rounded-xl  bg-dot-white/[0.2]
+    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
   >
     {" "}
-    <InfiniteSliderHoverSpeed />
+    <div>
+      {" "}
+      <InfiniteSliderHoverSpeed />
+    </div>
+    <div className="pt-16">
+      <InfiniteSliderBasic />
+    </div>
   </div>
 );
 const items = [
