@@ -8,6 +8,7 @@ import {
 import { CertificationsDemo } from "./ui/Certifications";
 import { InfiniteSliderHoverSpeed } from "./InfitiSlidingSkills";
 import { InfiniteSliderBasic } from "./ui/InfinitiSliderBasic";
+import Image from "next/image";
 
 export function BentoGridSecondDemo() {
   return (
@@ -35,7 +36,7 @@ export function BentoGridSecondDemo() {
 const Skeleton = () => (
   <div
     className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl  bg-dot-white/[0.2]
-    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black"
+    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
   ></div>
 );
 const SkeletonTwo = () => (
@@ -63,11 +64,26 @@ const SkeletonThree = () => (
     </div>
   </div>
 );
+
+const SkeletonFive = () => (
+  <div
+    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-dot-white/[0.2]
+    [mask-image:radial-gradient(ellipse_at_center,black,black)] border border-white/[0.2] bg-black-200"
+  >
+    <Image
+      src="/assets/test.png"
+      alt="Descripción de la imagen"
+      width={500} // Ajusta el tamaño según tus necesidades
+      height={500} // Ajusta el tamaño según tus necesidades
+      className="rounded-xl object-cover w-full object-top  "
+    />
+  </div>
+);
 const items = [
   {
     title: "The Dawn of Innovation",
     description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <Skeleton />,
+    header: <SkeletonFive />,
     className: "md:col-span-2",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
