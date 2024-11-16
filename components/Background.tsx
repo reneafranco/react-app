@@ -10,6 +10,11 @@ import {
 export function BentoGridSecondDemo() {
   return (
     <main>
+      <div className="pt-20">
+        <h1 className="heading text-white">
+          Background <span className="text-purple"> & Education</span>
+        </h1>
+      </div>
       <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[28rem] py-20">
         {items.map((item, i) => (
           <BentoGridItem

@@ -20,8 +20,8 @@ export default function Home() {
         <Herotest />
         <About />
         <Experience />
-        <RecenProjectsTest />
         <BentoGridSecondDemo />
+        <RecenProjectsTest />
         <Approach />
         <Client />
         <Footer />
