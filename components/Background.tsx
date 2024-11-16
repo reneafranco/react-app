@@ -6,6 +6,8 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
+import { CertificationsDemo } from "./ui/Certifications";
+import { InfiniteSliderHoverSpeed } from "./InfitiSlidingSkills";
 
 export function BentoGridSecondDemo() {
   return (
@@ -36,6 +38,25 @@ const Skeleton = () => (
     [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black"
   ></div>
 );
+const SkeletonTwo = () => (
+  <div
+    className="flex flex-1 w-full h-full rounded-xl  bg-dot-white/[0.2]
+    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black"
+  >
+    {" "}
+    <CertificationsDemo />
+  </div>
+);
+
+const SkeletonThree = () => (
+  <div
+    className="flex flex-1 w-full h-full rounded-xl  bg-dot-white/[0.2]
+    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black"
+  >
+    {" "}
+    <InfiniteSliderHoverSpeed />
+  </div>
+);
 const items = [
   {
     title: "The Dawn of Innovation",
@@ -47,7 +68,7 @@ const items = [
   {
     title: "The Digital Revolution",
     description: "Dive into the transformative power of technology.",
-    header: <Skeleton />,
+    header: <SkeletonThree />,
     className: "md:col-span-1",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
@@ -59,11 +80,7 @@ const items = [
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Power of Communication",
-    description:
-      "Understand the impact of effective communication in our lives.",
-    header: <Skeleton />,
+    header: <SkeletonTwo />,
     className: "md:col-span-2",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
 ];
