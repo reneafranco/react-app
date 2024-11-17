@@ -18,7 +18,7 @@ export function CertificationsDemo() {
     },
     {
       quote:
-        "Develops expertise in managing projects, emphasizing Agile methodologies from initiation to successful completion.",
+        "Develops expertise in managing projects, emphasizing Agile methodologies .",
       name: "Google Project Management",
       designation: "Google",
       src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3",
