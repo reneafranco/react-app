@@ -4,8 +4,8 @@ export function InfiniteSliderBasic() {
   return (
     <InfiniteSlider gap={24} reverse>
       <img
-        src="https://i.scdn.co/image/ab67616d00001e02ad24c5e36ddcd1957ad35677"
-        alt="Dean blunt - Black Metal 2"
+        src="/assets/arch.svg"
+        alt="Arch Linux OS"
         className="aspect-square w-[120px] rounded-[4px]"
       />
       <img
