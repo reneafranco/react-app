@@ -9,8 +9,8 @@ export function InfiniteSliderBasic() {
         className="aspect-square w-[120px] rounded-[4px]"
       />
       <img
-        src="https://i.scdn.co/image/ab67616d00001e02af73f776b92d4614152fb141"
-        alt="Jungle Jack - JUNGLE DES ILLUSIONS VOL 2"
+        src="/assets/aws.svg"
+        alt="Amazon Web Services"
         className="aspect-square w-[120px] rounded-[4px]"
       />
       <img
