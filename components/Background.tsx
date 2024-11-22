@@ -5,6 +5,7 @@ import { CertificationsDemo } from "./ui/Certifications";
 import { InfiniteSliderHoverSpeed } from "./InfitiSlidingSkills";
 import { InfiniteSliderBasic } from "./ui/InfinitiSliderBasic";
 import Image from "next/image";
+import { GlobeDemo } from "./ui/GlobeGrid";
 
 export function BentoGridSecondDemo() {
   return (
@@ -34,6 +35,15 @@ const Skeleton = () => (
     className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl  bg-dot-white/[0.2]
     [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
   ></div>
+);
+
+const SkeletonGlove = () => (
+  <div
+    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl  bg-dot-white/[0.2]
+    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
+  >
+    <GlobeDemo />
+  </div>
 );
 const SkeletonTwo = () => (
   <div
@@ -91,7 +101,7 @@ const items = [
   {
     title: "The Art of Design",
     description: "Discover the beauty of thoughtful and functional design.",
-    header: <Skeleton />,
+    header: <SkeletonGlove />,
     className: "md:col-span-1 ",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
