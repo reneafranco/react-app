@@ -6,56 +6,56 @@ export function InfiniteSliderBasic() {
     <InfiniteSlider gap={24} reverse>
       <Image
         src="/assets/icons/spring-icon.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="Spring-boot - Backend Framework"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/python.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="Python - Programming Language"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/java.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="Java - Programming Language"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/docker-icon.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="Docker - DevOps"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/postgresql.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="PostgreSQL - Database"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/git-icon.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="Git - Version Control System "
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/archlinux.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="ArchLinux - Operating System"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/aws.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="AWS - Cloud Service"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
