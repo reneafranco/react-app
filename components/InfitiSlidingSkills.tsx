@@ -25,21 +25,27 @@ export function InfiniteSliderHoverSpeed() {
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
-      <img
+      <Image
         src="/assets/icons/javascript.svg"
-        alt="Lana Del Rey - Ultraviolence"
-        className="aspect-square w-[120px] rounded-[4px]"
-      />
-      <img
+        alt="Dean Blunt - Black Metal 2"
+        width={120}
+        height={120}
+        className="aspect-square rounded-[4px]"
+      />{" "}
+      <Image
         src="/assets/icons/nextjs-icon.svg"
-        alt="A$AP Rocky - Tailor Swif"
-        className="aspect-square w-[120px] rounded-[4px]"
-      />
-      <img
+        alt="Dean Blunt - Black Metal 2"
+        width={120}
+        height={120}
+        className="aspect-square rounded-[4px]"
+      />{" "}
+      <Image
         src="/assets/icons/tailwindcss-icon.svg"
-        alt="Midnight Miami (feat Konvy) - Nino Paid, Konvy"
-        className="aspect-square w-[120px] rounded-[4px]"
-      />
+        alt="Dean Blunt - Black Metal 2"
+        width={120}
+        height={120}
+        className="aspect-square rounded-[4px]"
+      />{" "}
     </InfiniteSlider>
   );
 }
