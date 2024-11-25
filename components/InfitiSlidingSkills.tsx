@@ -6,42 +6,42 @@ export function InfiniteSliderHoverSpeed() {
     <InfiniteSlider durationOnHover={75} gap={24}>
       <Image
         src="/assets/icons/react.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="React - Frontend Library"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/typescript-icon.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="TypeScript - Programming Language"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/angular-icon.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="Angular - Frontend Framework"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/javascript.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="JavaScript - Programming Language"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/nextjs-icon.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="Next.js - Frontend Framework"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
       />{" "}
       <Image
         src="/assets/icons/tailwindcss-icon.svg"
-        alt="Dean Blunt - Black Metal 2"
+        alt="Taildwindcss - CSS Framework"
         width={120}
         height={120}
         className="aspect-square rounded-[4px]"
