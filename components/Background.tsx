@@ -30,12 +30,6 @@ export function BentoGridSecondDemo() {
     </main>
   );
 }
-const Skeleton = () => (
-  <div
-    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl  bg-dot-white/[0.2]
-    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
-  ></div>
-);
 
 const SkeletonGlove = () => (
   <div
@@ -61,11 +55,11 @@ const SkeletonThree = () => (
     [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
   >
     {" "}
-    <div>
+    <div className="pt-6">
       {" "}
       <InfiniteSliderHoverSpeed />
     </div>
-    <div className="pt-16">
+    <div className="pb-6 pt-12">
       <InfiniteSliderBasic />
     </div>
   </div>
@@ -82,8 +76,15 @@ const SkeletonFive = () => (
       width={500}
       height={500}
       className="rounded-xl object-cover w-full object-top  "
+      priority
     />
   </div>
+);
+const Skeleton = () => (
+  <div
+    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl  bg-dot-white/[0.2]
+    [mask-image:radial-gradient(ellipse_at_center,black,black)]  border border-white/[0.2] bg-black-200"
+  ></div>
 );
 const items = [
   {
