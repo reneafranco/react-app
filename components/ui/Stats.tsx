@@ -1,6 +1,7 @@
 "use client";
 
 import { Cousine } from "next/font/google";
+import { useEffect, useState } from "react";
 import CountUp from "react-countup";
 
 const stats = [
@@ -23,6 +24,20 @@ const stats = [
 ];
 
 const Stats = () => {
+  const [statss, setStats] = useState([]);
+
+  const fetchGitHubData = async () => {
+    const response = await fetch(
+      "https://jsonplaceholder.typicode.com/todos/1",
+    );
+    const data = await response.json();
+    setStats(data);
+  };
+
+  useEffect(() => {
+    fetchGitHubData();
+  }, []);
+
   return (
     <section>
       <div className="container mx-auto pb-20">
