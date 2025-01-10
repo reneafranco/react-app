@@ -89,7 +89,13 @@ export const projects = [
     title: "Software development Blog",
     des: "Elevate your video meetings with Hermes, offering top-notch rendering for smooth communication.",
     img: "/images/render-engine.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/c.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/re.svg",
+      "/assets/icons/git-icon.svg",
+    ],
     link: "https://reneablog.netlify.app/",
   },
   {
@@ -97,15 +103,20 @@ export const projects = [
     title: "Network Scanner",
     des: "Analyze your network with precision using Network Scanner, powered by advanced technology for detailed insights.",
     img: "/images/network-scaner.png",
-    iconLists: ["/assets/java.svg", "/tail.svg", "/c.svg"],
+    iconLists: ["/assets/java.svg", "/tail.svg", "/assets/icons/git-icon.svg"],
     link: "https://github.com/reneafranco/Network-Scanner",
   },
   {
     id: 4,
-    title: "Custom Neovim Configuration",
+    title: "Angular Api Integration",
     des: "Optimize your coding environment with a tailored Neovim setup using Lua for improved development productivity.",
     img: "/images/red-social.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [
+      "/assets/icons/angular-icon.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/assets/icons/git-icon.svg",
+    ],
     link: "https://angulardeployversion.netlify.app/",
   },
 ];
