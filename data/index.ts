@@ -128,16 +128,16 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Rene was an outstanding experience. His sharp intellect and enthusiastic approach added tremendous value to our project. Rene's charisma and commitment to achieving exceptional results were evident throughout. His positive energy and professional skills make him a fantastic choice for any development needs.",
-    name: "Jonh Doe",
-    title: "Lead Developer at Creative Solutions",
-    profileImage: "/images/marce.jpeg",
+    name: "Pino Sestito",
+    title: "Ceo of suprares.com and globalmetaverso.com",
+    profileImage: "/images/pino.jpeg",
   },
   {
     quote:
       "Rene's blend of intelligence, enthusiasm, and charisma transformed our project. His proactive attitude and dedication to excellence were apparent from the start. Rene's ability to infuse energy and expertise into his work ensures top-notch results. For a collaborator who delivers with both skill and a dynamic presence, Rene stands out.",
-    name: "James Lee",
-    title: "Chief Technology Officer at FutureTech",
-    profileImage: "/images/marce.jpeg",
+    name: "Piero Carcercano",
+    title: "Lead Architectural Designe",
+    profileImage: "/images/piero.png",
   },
 ];
 
@@ -177,7 +177,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Enginner - Freelancer.com",
+    title: "Software Enginner - Upwork.com",
     desc: "Contributed to open-source projects on GitHub, specializing in Java Spring Boot, deploying on AWS and Google Cloud.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
