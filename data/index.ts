@@ -72,32 +72,32 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Argus - Independent Browser",
+    title: "Global Metaverso",
     des: "Explore a secure and fast browsing experience with Argus, designed for privacy and efficiency.",
     img: "/images/argus-galaxy.png",
     iconLists: [
-      "/re.svg",
+      "/next.svg",
       "/tail.svg",
       "/ts.svg",
-      "/assets/java.svg",
+      "/re.svg",
       "/assets/svgrepoJs.svg",
     ],
-    link: "https://github.com/reneafranco/Argus",
+    link: "https://renebuild.netlify.app/",
   },
   {
     id: 2,
-    title: "Hermes - Render Engine",
+    title: "Software development Blog",
     des: "Elevate your video meetings with Hermes, offering top-notch rendering for smooth communication.",
     img: "/images/render-engine.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/reneafranco/Argus",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/c.svg"],
+    link: "https://reneablog.netlify.app/",
   },
   {
     id: 3,
     title: "Network Scanner",
     des: "Analyze your network with precision using Network Scanner, powered by advanced technology for detailed insights.",
     img: "/images/network-scaner.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/assets/java.svg", "/tail.svg", "/c.svg"],
     link: "https://github.com/reneafranco/Network-Scanner",
   },
   {
@@ -106,7 +106,7 @@ export const projects = [
     des: "Optimize your coding environment with a tailored Neovim setup using Lua for improved development productivity.",
     img: "/images/red-social.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/reneafranco/.dotfiles",
+    link: "https://angulardeployversion.netlify.app/",
   },
 ];
 
