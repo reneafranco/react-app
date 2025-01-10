@@ -123,7 +123,7 @@ export const testimonials = [
       "Rene's passion and intelligence are unparalleled. His charismatic personality and dedication to the project brought a unique energy that propelled our work forward. Rene's ability to tackle challenges with both creativity and professionalism made him a standout collaborator. For a partner who offers both expertise and a vibrant attitude, Rene is highly recommended.",
     name: "Karelys Franco",
     title: "Trilingual Senior Business Analyst",
-    profileImage: "/images/marce.jpeg",
+    profileImage: "/images/kare.png",
   },
   {
     quote:
@@ -136,7 +136,7 @@ export const testimonials = [
     quote:
       "Rene's blend of intelligence, enthusiasm, and charisma transformed our project. His proactive attitude and dedication to excellence were apparent from the start. Rene's ability to infuse energy and expertise into his work ensures top-notch results. For a collaborator who delivers with both skill and a dynamic presence, Rene stands out.",
     name: "Piero Carcercano",
-    title: "Lead Architectural Designe",
+    title: "Lead Architectural Designer",
     profileImage: "/images/piero.png",
   },
 ];
