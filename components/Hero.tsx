@@ -1,38 +1,38 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
-import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import LiquidEther from "./LiquidEther";
 
 const Hero = () => {
   return (
     <div className="h-screen w-full pb-20 pt-36">
       {/**
-       *  UI: Spotlights
-       *  Link: https://ui.aceternity.com/components/spotlight
+       *  UI: Spotlights removed
        */}
       <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
-        />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
       {/**
-       *  UI: grid
-       *  change bg color to bg-black-100 and reduce grid color from
-       *  0.2 to 0.03
+       *  UI: LineWaves Background
        */}
       <div
-        className="h-screen w-full dark:bg-black-100 bg-white
-         dark:bg-grid-white/[0.010] bg-grid-black-100/[0.2]
-       absolute top-0 left-0 flex items-center justify-center"
+        className="h-screen w-full absolute top-0 left-0 flex items-center justify-center overflow-hidden [mask-image:linear-gradient(to_bottom,white_70%,transparent_100%)]"
       >
+        <div className="absolute inset-0 w-full h-full">
+          <LiquidEther
+            mouseForce={25}
+            cursorSize={100}
+            isViscous={false}
+            viscous={30}
+            colors={["#5227FF","#FF9FFC","#B497CF"]}
+            autoDemo
+            autoSpeed={0.5}
+            autoIntensity={3.3}
+            isBounce={false}
+            resolution={0.5}
+          />
+        </div>
         {/* Radial gradient for the container to give a faded look */}
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
@@ -79,8 +79,8 @@ export default Hero;
 <div className="h-full w-full dark:bg-black-100 bg-white  
       dark:bg-dot-white/[0.3] bg-dot-black/[0.2]  
       flex items-center justify-center absolute top-0 left-0">
-          {/* Radial gradient for the container to give a faded look */}
-          <div className="absolute pointer-events-none inset-0 flex items-center 
+  {/* Radial gradient for the container to give a faded look */}
+  <div className="absolute pointer-events-none inset-0 flex items-center 
           justify-center dark:bg-black-100
           bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
-    </div>
+</div>

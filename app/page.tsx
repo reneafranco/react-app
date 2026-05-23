@@ -5,7 +5,7 @@ import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
-import Herotest from "@/components/Herotest";
+import Hero from "@/components/Hero";
 import RecenProjectsTest from "@/components/RecenProjectsTest";
 import { BentoGridSecondDemo } from "@/components/Background";
 
@@ -17,7 +17,7 @@ export default function Home() {
     >
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
-        <Herotest />
+        <Hero />
         <About />
         <Experience />
         <BentoGridSecondDemo />
