@@ -7,6 +7,8 @@ import Social from "@/components/Social";
 import Photo from "@/components/ui/Photo";
 import Stats from "@/components/ui/Stats";
 import { AnimatedTooltip } from "./ui/AnimatedTootip";
+import ElectricBorder from "./ElectricBorder";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -44,7 +46,36 @@ const About = () => {
           </div>
           {/* photo */}
           <div className="order-1 xl:order-none mb-8 xl:mb-0 flex justify-center items-center">
-            <Photo />
+            <ElectricBorder
+              color="#b276e6"
+              speed={1}
+              chaos={0.17}
+              borderRadius={16}
+              style={{ borderRadius: 16 }}
+            >
+              <div className="w-[270px] xl:w-[340px] relative overflow-hidden rounded-2xl">
+                {/* Photo */}
+                <div className="w-full h-[270px] xl:h-[340px] relative overflow-hidden">
+                  <Image
+                    src="/assets/image-okok.png"
+                    priority
+                    quality={100}
+                    fill
+                    alt="Rene Franco"
+                    sizes="(max-width: 768px) 270px, 340px"
+                    className="object-cover"
+                  />
+                </div>
+                {/* Dev Card info */}
+                <div className="bg-black/60 backdrop-blur-sm px-5 py-4 border-t border-white/10">
+                  <p className="text-white font-bold text-lg leading-tight">Rene Franco</p>
+                  <div className="flex items-center gap-2 mt-1">
+                    <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
+                    <p className="text-purple-300 text-sm font-medium tracking-wide">Software Engineer</p>
+                  </div>
+                </div>
+              </div>
+            </ElectricBorder>
           </div>
         </div>
       </div>
