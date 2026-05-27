@@ -55,7 +55,7 @@ const About = () => {
             >
               <div className="w-[270px] xl:w-[340px] relative overflow-hidden rounded-2xl">
                 {/* Photo */}
-                <div className="w-full h-[270px] xl:h-[340px] relative overflow-hidden">
+                <div className="w-full h-[360px] xl:h-[450px] relative overflow-hidden">
                   <Image
                     src="/assets/image-okok.png"
                     priority
@@ -65,14 +65,6 @@ const About = () => {
                     sizes="(max-width: 768px) 270px, 340px"
                     className="object-cover"
                   />
-                </div>
-                {/* Dev Card info */}
-                <div className="bg-black/60 backdrop-blur-sm px-5 py-4 border-t border-white/10">
-                  <p className="text-white font-bold text-lg leading-tight">Rene Franco</p>
-                  <div className="flex items-center gap-2 mt-1">
-                    <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
-                    <p className="text-purple-300 text-sm font-medium tracking-wide">Software Engineer</p>
-                  </div>
                 </div>
               </div>
             </ElectricBorder>
