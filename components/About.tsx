@@ -6,28 +6,35 @@ import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/ui/Photo";
 import Stats from "@/components/ui/Stats";
-import { AnimatedTooltip } from "./ui/AnimatedTootip";
+import LogoLoop from "@/components/LogoLoop";
 import ElectricBorder from "./ElectricBorder";
 import Image from "next/image";
 
 const About = () => {
+  const handleDownloadCV = () => {
+    // Reemplaza esta URL con la URL real de tu archivo de CV
+    const cvUrl = "/assets/Rene-Adonay-SE.pdf";
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "Rene_Franco_CV.pdf"; // Nombre del archivo que se descargará
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="h-full w-full" id="about">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-12 2xl:pb-24">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-12">
           {/* text */}
-          <div className="text-center xl:text-left order-2 xl:order-none">
+          <div className="text-center xl:text-left order-2 xl:order-none mb-8">
             <span className="text-xl text-white/65">Software Developer</span>
             <h1 className="h1 mb-6 text-white">
               Hello I&apos;m <br />{" "}
               <span className="text-purple">Rene Franco</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and am proficient
-              in various programming languages and technologies.
-            </p>
             {/* btn and social */}
-            <div className="flex flex-col xl:flex-row items-center gap-8">
+            <div className="flex flex-col xl:flex-row items-center gap-8 mb-8">
               <MagicButton
                 title="Download CV"
                 icon={<FiDownload className="text-xl" />}
@@ -71,86 +78,34 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center pb-10 xl:py-20 2xl:py-10">
-        <AnimatedTooltip items={people} />
+      <div className="mt-8">
+        <Stats />
       </div>
-      <Stats />
+        {/* Logo Loop */}
+        <div className="w-full mt-8">
+          <LogoLoop
+            logos={[
+              { src: "/assets/typeScript.svg", alt: "TypeScript" },
+              { src: "/assets/react.svg", alt: "React" },
+              { src: "/assets/java.svg", alt: "Java" },
+              { src: "/assets/spring.svg", alt: "Spring Boot" },
+              { src: "/assets/python.svg", alt: "Python" },
+              { src: "/assets/lua.svg", alt: "Lua" },
+              { src: "/assets/postgresql.svg", alt: "PostgreSQL" },
+              { src: "/assets/docker.svg", alt: "Docker" },
+              { src: "/assets/arch.svg", alt: "Linux" },
+              { src: "/assets/aws.svg", alt: "AWS" }
+            ]}
+            speed={200}
+            direction="left"
+            pauseOnHover
+            logoHeight={96}
+            gap={80}
+          />
+        </div>
     </section>
   );
 };
 
-const people = [
-  {
-    id: 1,
-    name: "TypeScript",
-    designation: "Programing Language",
-    image: "/assets/typeScript.svg",
-  },
-  {
-    id: 2,
-    name: "React",
-    designation: "Frontend Library",
-    image: "/assets/react.svg",
-  },
-  {
-    id: 3,
-    name: "Java",
-    designation: "Programing Language",
-    image: "/assets/java.svg",
-  },
-  {
-    id: 4,
-    name: "Spring Boot",
-    designation: "Backend Framework",
-    image: "/assets/spring.svg",
-  },
-  {
-    id: 5,
-    name: "Python",
-    designation: "Programing Language",
-    image: "/assets/python.svg",
-  },
-  {
-    id: 6,
-    name: "Lua",
-    designation: "Embedded Language",
-    image: "/assets/lua.svg",
-  },
-  {
-    id: 7,
-    name: "PostgreSQL",
-    designation: "RDBMS",
-    image: "/assets/postgresql.svg",
-  },
-  {
-    id: 8,
-    name: "Docker",
-    designation: "DevOps Language",
-    image: "/assets/docker.svg",
-  },
-  {
-    id: 9,
-    name: "Linux",
-    designation: "Operating System",
-    image: "/assets/arch.svg",
-  },
-  {
-    id: 10,
-    name: "AWS",
-    designation: "Hosting Service",
-    image: "/assets/aws.svg",
-  },
-];
-
-const handleDownloadCV = () => {
-  // Reemplaza esta URL con la URL real de tu archivo de CV
-  const cvUrl = "/assets/Rene-Adonay-SE.pdf";
-  const link = document.createElement("a");
-  link.href = cvUrl;
-  link.download = "Rene_Franco_CV.pdf"; // Nombre del archivo que se descargará
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
 
 export default About;
