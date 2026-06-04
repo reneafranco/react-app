@@ -9,10 +9,10 @@ import LaserFlow from "@/components/LaserFlow";
 const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10 relative" id="contact">
-      {/* LaserFlow visual effect at the bottom */}
-      <div className="absolute inset-x-0 bottom-0 pointer-events-none"
-           style={{ height: '300px' }}>
-        <div style={{ height: '100%', position: 'relative', overflow: 'hidden' }}>
+      {/* LaserFlow visual effect at the bottom right */}
+      <div className="absolute right-0 bottom-0 pointer-events-none"
+           style={{ width: '1400px', height: '800px', transform: 'translate(25%, 36%)' }}>
+        <div style={{ height: '100%', width: '100%', position: 'relative', overflow: 'hidden' }}>
           <LaserFlow
             className="w-full h-full"
             flowSpeed={0.2}
