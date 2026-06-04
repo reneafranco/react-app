@@ -21,9 +21,9 @@ const Footer = () => {
             wispSpeed={10}
             wispIntensity={3}
             fogIntensity={0.3}
-            decay={0.8}
+            decay={2.20}
             falloffStart={1.0}
-            color="#FF79C6"
+            color="#CF9EFF"
           />
         </div>
       </div>
