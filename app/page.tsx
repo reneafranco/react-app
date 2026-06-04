@@ -7,6 +7,7 @@ import About from "@/components/About";
 import Hero from "@/components/Hero";
 import RecenProjectsTest from "@/components/RecenProjectsTest";
 import { BentoGridSecondDemo } from "@/components/Background";
+import LaserFlow from "@/components/LaserFlow";
 
 export default function Home() {
   return (

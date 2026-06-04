@@ -1,11 +1,33 @@
+'use client';
+
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import LaserFlow from "@/components/LaserFlow";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-20 pb-10 relative" id="contact">
+      {/* LaserFlow visual effect at the bottom */}
+      <div className="absolute inset-x-0 bottom-0 pointer-events-none"
+           style={{ height: '300px' }}>
+        <div style={{ height: '100%', position: 'relative', overflow: 'hidden' }}>
+          <LaserFlow
+            className="w-full h-full"
+            flowSpeed={0.2}
+            flowStrength={0.15}
+            wispDensity={0.8}
+            wispSpeed={10}
+            wispIntensity={3}
+            fogIntensity={0.3}
+            decay={0.8}
+            falloffStart={1.0}
+            color="#FF79C6"
+          />
+        </div>
+      </div>
+
       {/* background grid */}
       {/* <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
@@ -15,7 +37,7 @@ const Footer = () => {
         />
       </div> */}
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center relative z-10">
         <h1 className="heading lg:max-w-[45vw] text-white">
           I hope <span className="text-purple">my work </span>
           resonates with<span className="text-purple"> you </span>
@@ -31,7 +53,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center relative z-10">
         <p className="md:text-base text-sm md:font-normal font-light text-white/90">
           Copyright © 2024 Rene Franco
         </p>
